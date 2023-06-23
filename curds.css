@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #444040;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;}
+
+
+.header{
+    color: #fff;
+    height: 100%;
+    
+}
+
+
+input{
+    color: #fff;
+    outline:#070606;
+    border: none;
+    background-color: #050505;
+    
+    width: 100%;
+    text-align: center;
+
+}
+ 
+input:hover{
+    box-shadow: #5e5656;
+    cursor: pointer;
+}
+
+
+.one input{
+     width: 20%;
+}
+
+#total{
+    background-color: red;
+}
+
+
+#total::before{
+content:"total";
+}
+
+
+button{
+    background-color: red;
+}
+
+#creat{
+    width: 100%;
+}
+
+
+
+#sn{
+    float: left;
+    width: 50%;
+    margin: 0;
+    
+}
+
+#sc{
+    float: right;
+    width: 50%;
+    margin: 0;
+}
+
+
+table{
+   width: 100%;
+   text-align: center;
+   margin: 5px;
+}
